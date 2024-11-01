@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: system-ui;
+  display: grid;
+  place-items: center;
+  /* background-color:rgba(203, 27, 230, 0.816); */
+  background: url(./images/background-301135_1280.webp)center;
+}
+
+.container h1 {
+  margin-top: 50px;
+  color: blueviolet;
+  margin-bottom: 34px;
+  text-align: center;
+  font-weight: 900;
+  font-size: xxx-large;
+}
+
+.student-list {
+  color: aliceblue;
+  font-size: x-large;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+  list-style-type: none;
+}
+
+.total-area {
+  color: black;
+  font-weight: 900;
+  font-size: xx-large;
+  margin-top: 50px;
+  background-color: burlywood;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.genderList {
+  display: flex;
+  gap: 50px;
+}
+
+#studentMale {
+  color: black;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 20px;
+  gap: 15px;
+  padding: 20px;
+}
+#studentMale p {
+  color: red;
+}
+#studentFemale {
+  color: black;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 20px;
+  gap: 15px;
+  padding: 20px;
+}
+
+#studentFemale p {
+  color: red;
+}
